@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-image: url('kuvat/Kahvipavut.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 66.67%;
+    margin-top: 20px;
+    
+}
+main h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+img {
+    display: block; 
+    margin: auto; 
+    margin-top: 30px; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 27%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        padding: 10px;
+        margin-right: 5px;
+    }
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li {
+    float: left;
+}
+
+a {
+    color: #3498db; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #2980b9; 
+}
+
+
+
+.teksti-ja-linkki {
+    margin-top: 50px; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.teksti-ja-linkki p {
+    margin-bottom: 20px; 
+}
+
+.teksti-ja-linkki a img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: auto;
+}
+
+
+.coffee-section {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.coffee-section h4, .coffee-section p {
+    margin: 0 0 10px; 
+}
+
+img {
+    display: block; 
+    margin: 0 auto 100px; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+h3 {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.coffee-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.coffee-section h4, .coffee-section p {
+    margin: 10px 0; 
+}
+
+
+
+.large-image {
+    width: 80vw;
+    max-width: 100%; 
+    display: block;
+    margin: 20px auto;
+}
+
+
+.small-image {
+    width: 20vw;
+    max-width: 100%;
+    display: block;
+    margin: 10px auto;
+}
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+    .section {
+        margin-bottom: 50px;
+    }
+}
+
+.video-image-gap {
+    margin-bottom: 70px;
+}
+
