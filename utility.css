@@ -63,10 +63,10 @@
   }
 
   .navbar ul {
-      padding: 5px; /* Pienennä ul-elementin sisäpaddingia */
+      padding: 2px; /* Pienennä ul-elementin sisäpaddingia */
   }
 
   .navbar li {
-      margin: 5px 0; /* Pienennä listaelementtien välimatkaa */
+      margin: 2px 0; /* Pienennä listaelementtien välimatkaa */
   }
   }
