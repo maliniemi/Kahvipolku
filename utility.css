@@ -27,13 +27,7 @@
       max-width: 768px;
   }
 
-  body h1 {
-      color: red;
-  }
-
-  .navbar a {
-      color: brown;
-  }
+  
 
   img {
       display: block;
@@ -63,4 +57,16 @@
     .container {
       width: 100%;
     }
+
+    .navbar {
+      font-size: 14px; /* Pienennä fonttikokoa */
+  }
+
+  .navbar ul {
+      padding: 5px; /* Pienennä ul-elementin sisäpaddingia */
+  }
+
+  .navbar li {
+      margin: 5px 0; /* Pienennä listaelementtien välimatkaa */
+  }
   }
